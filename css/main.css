@@ -1,0 +1,105 @@
+body,
+html {
+  background-color: #deeaee;
+  height: 100%; }
+  body .field,
+  html .field {
+    display: flex; }
+    body .field .fleet,
+    html .field .fleet {
+      flex-wrap: wrap;
+      margin: 10px;
+      border: 5px solid;
+      border-color: #393939;
+      width: 280px;
+      height: 350px; }
+      body .field .fleet .draggable.ui-draggable-dragging,
+      html .field .fleet .draggable.ui-draggable-dragging {
+        border-color: rgba(236, 234, 121, 0.918); }
+      body .field .fleet .carrier,
+      html .field .fleet .carrier {
+        margin: 10px;
+        width: 250px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
+        border: 2px solid;
+        border-color: #4e4e4e;
+        border-radius: 20px;
+        background-color: #878f99;
+        box-shadow: 5px 5px 5px grey; }
+      body .field .fleet .battleShip,
+      html .field .fleet .battleShip {
+        margin: 10px;
+        width: 200px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
+        border: 2px solid;
+        border-color: #4e4e4e;
+        border-radius: 20px;
+        background-color: #878f99; }
+      body .field .fleet .cruiser,
+      html .field .fleet .cruiser {
+        margin: 10px;
+        width: 150px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
+        border: 2px solid;
+        border-color: #4e4e4e;
+        border-radius: 20px;
+        background-color: #878f99; }
+      body .field .fleet .submarine,
+      html .field .fleet .submarine {
+        margin: 10px;
+        width: 150px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
+        border: 2px solid;
+        border-color: #4e4e4e;
+        border-radius: 20px;
+        background-color: #878f99; }
+      body .field .fleet .destroyer,
+      html .field .fleet .destroyer {
+        margin: 10px;
+        width: 100px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
+        border: 2px solid;
+        border-color: #4e4e4e;
+        border-radius: 20px;
+        background-color: #878f99; }
+    body .field .wrapper,
+    html .field .wrapper {
+      flex-wrap: wrap;
+      margin: 10px;
+      width: 572px;
+      height: 572px;
+      border: 5px solid;
+      border-color: #393939; }
+      body .field .wrapper .square,
+      html .field .wrapper .square {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border: 1px solid;
+        border-color: #4e4e4e;
+        float: left; }
+        body .field .wrapper .square p,
+        html .field .wrapper .square p {
+          font-size: larger;
+          font-weight: 600;
+          font-family: "Courier New", Courier, monospace; }
+      body .field .wrapper .dropsquare,
+      html .field .wrapper .dropsquare {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border: 1px solid;
+        border-color: #4e4e4e;
+        float: left; }
+
+.clearfix {
+  clear: both; }

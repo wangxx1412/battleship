@@ -1,0 +1,109 @@
+body,
+html {
+  background-color: #deeaee;
+  height: 100%;
+  .field {
+    display: flex;
+    .fleet {
+      flex-wrap: wrap;
+      margin: 10px;
+      border: 5px solid;
+      border-color: $primary_dark;
+      width: 280px;
+      height: 350px;
+      .draggable.ui-draggable-dragging {
+        border-color: rgba(236, 234, 121, 0.918);
+      }
+
+      .carrier {
+        margin: 10px;
+        width: 250px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
+        border: 2px solid;
+        border-color: $primary_grey;
+        border-radius: 20px;
+        background-color: $fleet;
+        box-shadow: 5px 5px 5px grey;
+      }
+      .battleShip {
+        margin: 10px;
+        width: 200px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
+        border: 2px solid;
+        border-color: $primary_grey;
+        border-radius: 20px;
+        background-color: $fleet;
+      }
+      .cruiser {
+        margin: 10px;
+        width: 150px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
+        border: 2px solid;
+        border-color: $primary_grey;
+        border-radius: 20px;
+        background-color: $fleet;
+      }
+      .submarine {
+        margin: 10px;
+        width: 150px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
+        border: 2px solid;
+        border-color: $primary_grey;
+        border-radius: 20px;
+        background-color: $fleet;
+      }
+      .destroyer {
+        margin: 10px;
+        width: 100px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
+        border: 2px solid;
+        border-color: $primary_grey;
+        border-radius: 20px;
+        background-color: $fleet;
+      }
+    }
+    .wrapper {
+      flex-wrap: wrap;
+      margin: 10px;
+      width: 572px;
+      height: 572px;
+      border: 5px solid;
+      border-color: $primary_dark;
+
+      .square {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border: 1px solid;
+        border-color: $primary_grey;
+        float: left;
+        p {
+          font-size: larger;
+          font-weight: 600;
+          font-family: "Courier New", Courier, monospace;
+        }
+      }
+      .dropsquare {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border: 1px solid;
+        border-color: $primary_grey;
+        float: left;
+      }
+    }
+  }
+}
+
+.clearfix {
+  clear: both;
+}

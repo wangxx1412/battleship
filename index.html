@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <title>BattleShip</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Title</div>
+      <div class="field">
+        <div class="fleet">
+          <div class="carrier draggable"></div>
+          <div class="battleShip draggable"></div>
+          <div class="cruiser draggable"></div>
+          <div class="submarine draggable"></div>
+          <div class="destroyer draggable"></div>
+        </div>
+        <div class="wrapper">
+          <div class="square"></div>
+          <div class="square"><p>A</p></div>
+          <div class="square"><p>B</p></div>
+          <div class="square"><p>C</p></div>
+          <div class="square"><p>D</p></div>
+          <div class="square"><p>E</p></div>
+          <div class="square"><p>F</p></div>
+          <div class="square"><p>G</p></div>
+          <div class="square"><p>H</p></div>
+          <div class="square"><p>I</p></div>
+          <div class="square"><p>J</p></div>
+          <div class="square"><p>1</p></div>
+          <div class="dropsquare A1"></div>
+          <div class="dropsquare B1"></div>
+          <div class="dropsquare C1"></div>
+          <div class="dropsquare D1"></div>
+          <div class="dropsquare E1"></div>
+          <div class="dropsquare F1"></div>
+          <div class="dropsquare G1"></div>
+          <div class="dropsquare H1"></div>
+          <div class="dropsquare I1"></div>
+          <div class="dropsquare J1"></div>
+          <div class="square"><p>2</p></div>
+          <div class="dropsquare A2"></div>
+          <div class="dropsquare B2"></div>
+          <div class="dropsquare C2"></div>
+          <div class="dropsquare D2"></div>
+          <div class="dropsquare E2"></div>
+          <div class="dropsquare F2"></div>
+          <div class="dropsquare G2"></div>
+          <div class="dropsquare H2"></div>
+          <div class="dropsquare I2"></div>
+          <div class="dropsquare J2"></div>
+          <div class="square"><p>3</p></div>
+          <div class="dropsquare A3"></div>
+          <div class="dropsquare B3"></div>
+          <div class="dropsquare C3"></div>
+          <div class="dropsquare D3"></div>
+          <div class="dropsquare E3"></div>
+          <div class="dropsquare F3"></div>
+          <div class="dropsquare G3"></div>
+          <div class="dropsquare H3"></div>
+          <div class="dropsquare I3"></div>
+          <div class="dropsquare J3"></div>
+          <div class="square"><p>4</p></div>
+          <div class="dropsquare A4"></div>
+          <div class="dropsquare B4"></div>
+          <div class="dropsquare C4"></div>
+          <div class="dropsquare D4"></div>
+          <div class="dropsquare E4"></div>
+          <div class="dropsquare F4"></div>
+          <div class="dropsquare G4"></div>
+          <div class="dropsquare H4"></div>
+          <div class="dropsquare I4"></div>
+          <div class="dropsquare J4"></div>
+          <div class="square"><p>5</p></div>
+          <div class="dropsquare A5"></div>
+          <div class="dropsquare B5"></div>
+          <div class="dropsquare C5"></div>
+          <div class="dropsquare D5"></div>
+          <div class="dropsquare E5"></div>
+          <div class="dropsquare F5"></div>
+          <div class="dropsquare G5"></div>
+          <div class="dropsquare H5"></div>
+          <div class="dropsquare I5"></div>
+          <div class="dropsquare J5"></div>
+          <div class="square"><p>6</p></div>
+          <div class="dropsquare A6"></div>
+          <div class="dropsquare B6"></div>
+          <div class="dropsquare C6"></div>
+          <div class="dropsquare D6"></div>
+          <div class="dropsquare E6"></div>
+          <div class="dropsquare F6"></div>
+          <div class="dropsquare G6"></div>
+          <div class="dropsquare H6"></div>
+          <div class="dropsquare I6"></div>
+          <div class="dropsquare J6"></div>
+          <div class="square"><p>7</p></div>
+          <div class="dropsquare A7"></div>
+          <div class="dropsquare B7"></div>
+          <div class="dropsquare C7"></div>
+          <div class="dropsquare D7"></div>
+          <div class="dropsquare E7"></div>
+          <div class="dropsquare F7"></div>
+          <div class="dropsquare G7"></div>
+          <div class="dropsquare H7"></div>
+          <div class="dropsquare I7"></div>
+          <div class="dropsquare J7"></div>
+          <div class="square"><p>8</p></div>
+          <div class="dropsquare A8"></div>
+          <div class="dropsquare B8"></div>
+          <div class="dropsquare C8"></div>
+          <div class="dropsquare D8"></div>
+          <div class="dropsquare E8"></div>
+          <div class="dropsquare F8"></div>
+          <div class="dropsquare G8"></div>
+          <div class="dropsquare H8"></div>
+          <div class="dropsquare I8"></div>
+          <div class="dropsquare J8"></div>
+          <div class="square"><p>9</p></div>
+          <div class="dropsquare A9"></div>
+          <div class="dropsquare B9"></div>
+          <div class="dropsquare C9"></div>
+          <div class="dropsquare D9"></div>
+          <div class="dropsquare E9"></div>
+          <div class="dropsquare F9"></div>
+          <div class="dropsquare G9"></div>
+          <div class="dropsquare H9"></div>
+          <div class="dropsquare I9"></div>
+          <div class="dropsquare J9"></div>
+          <div class="square"><p>10</p></div>
+          <div class="dropsquare A10"></div>
+          <div class="dropsquare B10"></div>
+          <div class="dropsquare C10"></div>
+          <div class="dropsquare D10"></div>
+          <div class="dropsquare E10"></div>
+          <div class="dropsquare F10"></div>
+          <div class="dropsquare G10"></div>
+          <div class="dropsquare H10"></div>
+          <div class="dropsquare I10"></div>
+          <div class="dropsquare J10"></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
