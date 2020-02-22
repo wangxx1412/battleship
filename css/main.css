@@ -4,75 +4,110 @@ html {
   height: 100%; }
   body .field,
   html .field {
-    display: flex; }
+    display: flex;
+    justify-content: center; }
     body .field .fleet,
     html .field .fleet {
       flex-wrap: wrap;
       margin: 10px;
       border: 5px solid;
       border-color: #393939;
-      width: 280px;
-      height: 350px; }
+      width: 180px;
+      height: 230px; }
       body .field .fleet .draggable.ui-draggable-dragging,
       html .field .fleet .draggable.ui-draggable-dragging {
         border-color: rgba(236, 234, 121, 0.918); }
       body .field .fleet .carrier,
       html .field .fleet .carrier {
+        position: absolute;
+        display: block;
         margin: 10px;
-        width: 250px;
-        height: 50px;
+        width: 150px;
+        height: 28px;
         background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
         border: 2px solid;
         border-color: #4e4e4e;
         border-radius: 20px;
         background-color: #878f99;
         box-shadow: 5px 5px 5px grey; }
+        body .field .fleet .carrierrotated,
+        html .field .fleet .carrierrotated {
+          width: 28px;
+          height: 150px; }
       body .field .fleet .battleShip,
       html .field .fleet .battleShip {
+        position: absolute;
+        top: 80px;
         margin: 10px;
-        width: 200px;
-        height: 50px;
+        width: 120px;
+        height: 28px;
         background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
         border: 2px solid;
         border-color: #4e4e4e;
         border-radius: 20px;
-        background-color: #878f99; }
+        background-color: #878f99;
+        box-shadow: 5px 5px 5px grey; }
+        body .field .fleet .battleShiprotated,
+        html .field .fleet .battleShiprotated {
+          width: 28px;
+          height: 120px; }
       body .field .fleet .cruiser,
       html .field .fleet .cruiser {
+        position: absolute;
+        top: 120px;
         margin: 10px;
-        width: 150px;
-        height: 50px;
+        width: 90px;
+        height: 28px;
         background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
         border: 2px solid;
         border-color: #4e4e4e;
         border-radius: 20px;
-        background-color: #878f99; }
+        background-color: #878f99;
+        box-shadow: 5px 5px 5px grey; }
+        body .field .fleet .cruiserrotated,
+        html .field .fleet .cruiserrotated {
+          width: 28px;
+          height: 90px; }
       body .field .fleet .submarine,
       html .field .fleet .submarine {
+        position: absolute;
+        top: 160px;
         margin: 10px;
-        width: 150px;
-        height: 50px;
+        width: 90px;
+        height: 28px;
         background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
         border: 2px solid;
         border-color: #4e4e4e;
         border-radius: 20px;
-        background-color: #878f99; }
+        background-color: #878f99;
+        box-shadow: 5px 5px 5px grey; }
+        body .field .fleet .submarinerotated,
+        html .field .fleet .submarinerotated {
+          width: 28px;
+          height: 90px; }
       body .field .fleet .destroyer,
       html .field .fleet .destroyer {
+        position: absolute;
+        top: 200px;
         margin: 10px;
-        width: 100px;
-        height: 50px;
+        width: 60px;
+        height: 28px;
         background: linear-gradient(to bottom right, #4e4e4e 0%, #878f99 62%);
         border: 2px solid;
         border-color: #4e4e4e;
         border-radius: 20px;
-        background-color: #878f99; }
+        background-color: #878f99;
+        box-shadow: 5px 5px 5px grey; }
+        body .field .fleet .destroyerrotated,
+        html .field .fleet .destroyerrotated {
+          width: 28px;
+          height: 60px; }
     body .field .wrapper,
     html .field .wrapper {
       flex-wrap: wrap;
       margin: 10px;
-      width: 572px;
-      height: 572px;
+      width: 352px;
+      height: 352px;
       border: 5px solid;
       border-color: #393939; }
       body .field .wrapper .square,
@@ -80,8 +115,8 @@ html {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
         border: 1px solid;
         border-color: #4e4e4e;
         float: left; }
@@ -95,8 +130,8 @@ html {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
         border: 1px solid;
         border-color: #4e4e4e;
         float: left; }
